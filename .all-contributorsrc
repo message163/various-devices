@@ -1,0 +1,27 @@
+{
+  "projectName": "various-devices",
+  "projectOwner": "message163",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "docs/node/index.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "message163",
+      "name": "xiaoMan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32630999?v=4",
+      "profile": "https://github.com/message163",
+      "contributions": [
+        "code",
+        "doc",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": true
+}
