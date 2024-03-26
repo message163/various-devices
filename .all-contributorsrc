@@ -4,9 +4,10 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
-    "docs/node/index.md"
+    "docs/node/index.md",
+    "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 50,
   "commit": true,
   "commitConvention": "none",
   "contributors": [
