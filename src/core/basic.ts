@@ -1,6 +1,18 @@
 import type { Env } from "../types/common";
 /**
  * 
+ * @returns true if the current environment is a electron false if the current environment is not a electron
+ * @returns 是否是electron环境
+ */
+export const isElectron = () => {
+    if (typeof process !== 'undefined' && process.versions && process.versions.electron) {
+        return true
+    } else {
+        return false
+    }
+}
+/**
+ * 
  * @returns true if the current environment is a browser false if the current environment is not a browser
  * @returns 是否是浏览器
  */
@@ -25,6 +37,9 @@ export const isWebWorker = ()=> {
 
 
 export const getEnv = ():Env => {
+    if(isElectron()){
+        return "electron"
+    }
     if (isBrowser()) {
         return 'browser';
     }

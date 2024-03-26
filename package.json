@@ -9,13 +9,15 @@
     "dev:node": "nodemon example/index.ts",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "dev:electron": "electron ./example/background.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
+    "electron": "^29.1.5",
     "all-contributors-cli": "^6.26.1",
     "vite": "^5.2.6",
     "vitepress": "^1.0.1"
