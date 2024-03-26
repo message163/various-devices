@@ -1,4 +1,4 @@
 
-export type Env = 'browser' | 'node' | 'webworker' | 'unknown' ;
-export type Mobile = 'ios' | 'android' | 'miniapp';
-export type Desktop = 'macos' | 'windows' | 'linux' | 'electron';
+export type Env = 'browser' | 'node' | 'webworker' | 'electron' | 'unknown' | 'miniapp';
+export type Mobile = 'ios' | 'android';
+export type Desktop = 'macos' | 'windows' | 'linux';
