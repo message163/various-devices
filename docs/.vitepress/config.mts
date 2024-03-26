@@ -8,21 +8,57 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'guide', link: '/desktop/windows' }
     ],
 
     sidebar: [
+      { 
+        text: 'Get Started',
+        link: '/guide/'
+      }, 
       {
-        text: 'Examples',
+        text: 'Desktop',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'windows', link: '/desktop/windows' },
+          { text: 'macos', link: '/desktop/macos' },
+          { text: 'linux', link: '/desktop/linux' }
+        ]
+      },
+      {
+        text: 'Mobile',
+        items: [
+          { text: 'android', link: '/mobile/android' },
+          { text: 'ios', link: '/mobile/ios' }
+        ]
+      },
+      {
+        text: 'Electron',
+        items: [
+          { text: 'api', link: '/electron/index' },
+        ]
+      },
+      {
+        text: 'Node',
+        items: [
+          { text: 'api', link: '/node/index' },
+        ]
+      },
+      {
+        text: 'Miniapp',
+        items: [
+          { text: 'api', link: '/miniapp/index' },
+        ]
+      },
+      {
+        text: 'All',
+        items: [
+          { text: 'api', link: '/all/index' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/message163/various-devices.git' }
     ]
   }
 })
