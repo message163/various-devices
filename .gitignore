@@ -1,2 +1,17 @@
-/node_modules
-/dist
+node_modules
+dist
+
+.vscode
+.idea
+.DS_Store
+*.sublime-*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log
