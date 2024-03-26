@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "build": "vite build",
-    "dev:browser":"vite",
-    "dev:node":"nodemon example/index.ts"
+    "dev:browser": "vite",
+    "dev:node": "nodemon example/index.ts",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
-    "vite": "^5.2.6"
+    "vite": "^5.2.6",
+    "vitepress": "^1.0.1"
   }
 }
