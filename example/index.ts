@@ -1,4 +1,5 @@
 import { getEnv } from '../src/core/basic'
-import { getPlatformNode } from '../src/core/node'
+import { getPlatformNode,getOs } from '../src/core/node'
 console.log(getEnv())
-console.log(getPlatformNode())
+// console.log(getPlatformNode())
+// getOs().then(res=>console.log(res))
