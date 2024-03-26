@@ -30,6 +30,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "core-admin",
+      "name": "徐轲",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77573477?v=4",
+      "profile": "https://github.com/core-admin",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
