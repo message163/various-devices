@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "build": "vite build",
-    "dev:browser":"vite",
-    "dev:node":"nodemon example/index.ts"
+    "dev:browser": "vite",
+    "dev:node": "nodemon example/index.ts",
+    "dev:electron": "electron ./example/background.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
+    "electron": "^29.1.5",
     "vite": "^5.2.6"
   }
 }

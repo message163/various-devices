@@ -1,4 +1,5 @@
 import type { Env } from "../types/common";
+import { isElectron } from "./electron";
 /**
  * 
  * @returns true if the current environment is a browser false if the current environment is not a browser
@@ -25,6 +26,9 @@ export const isWebWorker = ()=> {
 
 
 export const getEnv = ():Env => {
+    if(isElectron()){
+        return "electron"
+    }
     if (isBrowser()) {
         return 'browser';
     }
