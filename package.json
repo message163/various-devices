@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "vite build"
+    "dev:browser":"vite",
+    "build": "vite build",
+    "dev:node":"nodemon example/index.ts"
   },
   "keywords": [],
   "author": "",
