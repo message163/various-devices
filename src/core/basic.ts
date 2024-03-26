@@ -24,7 +24,7 @@ export const isWebWorker = ()=> {
 }
 
 
-export const env = ():Env => {
+export const getEnv = ():Env => {
     if (isBrowser()) {
         return 'browser';
     }
