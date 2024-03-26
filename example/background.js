@@ -1,4 +1,4 @@
-//electron 主进程文件
+//electron 主进程文件 这是一个electron样例 This is an electron sample
 const { app, BrowserWindow } = require('electron')
 app.whenReady().then(() => {
     const win = new BrowserWindow({

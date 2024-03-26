@@ -8,7 +8,6 @@ import type { electronEnv } from "../types/electron";
 export const getPlatformElectron = (): electronEnv => {
   const electron = getEnv();
   if (electron == "electron") {
-    console.log(process.versions, 999);
     return {
       platform: electron,
       version: process.version,
