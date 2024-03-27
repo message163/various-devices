@@ -3,6 +3,5 @@ export * from './core/node'
 export * from './core/electron'
 export * from './core/desktop'
 export * from './core/mini-program'
-export * from './core/wechat'
 export * from './core/mobile'
 
