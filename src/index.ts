@@ -4,4 +4,4 @@ export * from './core/electron'
 export * from './core/desktop'
 export * from './core/mini-program'
 export * from './core/mobile'
-
+export * from './core/wechat'
