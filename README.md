@@ -4,7 +4,7 @@ This is a cross-platform open source library for obtaining device name and devic
 
 ## Features
 
-- 💡 Cross platform - Nodejs Browser Windows Linux MacOs Android iOS.
+- 💡 Cross platform - Supports Nodejs Browser Windows Linux MacOS Android iOS.
 
 - 📦 Ready out of the box - Hot Module Replacement (HMR) that stays fast regardless of app size.
 
