@@ -48,17 +48,12 @@ export default defineConfig({
         items: [
           { text: 'api', link: '/miniapp/index' },
         ]
-      },
-      {
-        text: 'All',
-        items: [
-          { text: 'api', link: '/all/index' },
-        ]
       }
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/message163/various-devices.git' }
     ]
-  }
+  },
+  base: '/various-devices/temp/',
 })

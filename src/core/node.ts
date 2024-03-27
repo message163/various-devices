@@ -22,7 +22,13 @@ export const getPlatformNode = (): Result => {
 export const getOs = async (): Promise<NodeOS> => {
   const node = getEnv();
   if (node == 'node') {
-    const os = await import('os');
+    let os;
+    if (typeof require != 'undefined') {
+      os = require('os');
+    } else {
+      /* @vite-prevent-next-line */
+      os = await import('os');
+    }
     return {
       name: os.type(),
       version: os.release(),

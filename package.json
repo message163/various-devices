@@ -1,8 +1,12 @@
 {
   "name": "various-devices",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "This is a cross-platform open source library for obtaining device name and device model.",
+  "main": "./dist/various-devices.cjs.js",
+  "module": "./dist/various-devices.es.js",
+  "types": "./dist/various-devices.d.ts",
+  "files": ["dist/","./README.md"],
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "dev:browser": "vite",
@@ -12,14 +16,20 @@
     "docs:preview": "vitepress preview docs",
     "dev:electron": "electron ./example/background.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["platform","device","deviceName","deviceModel"],
+  "homepage": "https://github.com/message163/various-devices#readme",
+  "bugs": {
+    "url": "https://github.com/message163/various-devices/issues"
+  },
+  "author": "message163",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
-    "electron": "^29.1.5",
     "all-contributors-cli": "^6.26.1",
+    "electron": "^29.1.5",
+    "typescript": "^5.4.3",
     "vite": "^5.2.6",
+    "vite-plugin-dts": "^3.7.3",
     "vitepress": "^1.0.1"
   }
 }

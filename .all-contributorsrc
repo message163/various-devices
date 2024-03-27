@@ -5,6 +5,14 @@
   "repoHost": "https://github.com",
   "files": [
     "docs/node/index.md",
+    "docs/electron/index.md",
+    "docs/guide/index.md",
+    "docs/miniapp/index.md",
+    "docs/mobile/android.md",
+    "docs/mobile/ios.md",
+    "docs/desktop/windows.md",
+    "docs/desktop/macos.md",
+    "docs/desktop/linux.md",
     "README.md"
   ],
   "imageSize": 50,

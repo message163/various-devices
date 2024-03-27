@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
-
-
+import dts from 'vite-plugin-dts'
 
 export default defineConfig({
     build: {
@@ -9,6 +8,10 @@ export default defineConfig({
             name: 'variousDevices',
             fileName: (format) => `various-devices.${format}.js`,
             formats: ['es', 'cjs', 'umd','iife'],
-        }
-    }
+        },
+        
+    },
+    plugins: [
+        dts(),
+    ]
 })
