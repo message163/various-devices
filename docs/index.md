@@ -22,16 +22,16 @@ features:
     details: Nodejs Browser Windows Linux MacOs Android iOS.
   - icon: 📦
     title: Ready out of the box
-    details: Hot Module Replacement (HMR) that stays fast regardless of app size.
+    details: vue react angular jquey js ts miniprogram nodejs electron 
   - icon: 🛠️
     title: lightweight
     details: Out-of-the-box support for TypeScript, JSX, CSS and more.
   - icon: ⚡️
-    title: high performance
-    details: Pre-configured Rollup build with multi-page and library mode support.
+    title: compatible
+    details: Compatible with all mainstream browsers.
   - icon: 🔩
     title: Support extension
-    details: Rollup-superset plugin interface shared between dev and build.
+    details: Can provide extension functions for writing plugins for it.
   - icon: 🔑
     title: Fully Typed APIs
     details: Flexible programmatic APIs with full TypeScript typing.
