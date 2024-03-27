@@ -8,6 +8,13 @@ This is a cross-platform open source library for obtaining device name and devic
 npm install various-devices
 ```
 
+### CDN
+
+```html
+<script src='https://unpkg.com/various-devices/dist/various-devices.iife.js'></script>
+```
+It will be exposed to global as `variousDevices`
+
 ## usage 
 
 Get the current environment

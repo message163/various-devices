@@ -8,6 +8,14 @@ platform Android
 
 ### usage
 
+```js
+import { isAndroid } from 'various-devices'
+const result = isAndroid()
+```
+
+isAndroid This API is used to check if the current platform is Android. It return value `boolean`
+
+
 ```js{6}
 import { getMobileDeviceInfo } from 'various-devices'
 const result = getMobileDeviceInfo()

@@ -4,23 +4,36 @@
 
 Desktop platform for various-devices
 
-## isMacOS
+## isWindows
 
 platform Desktop
 
-usage
+### usage
 
 ```js{6}
-import { isMacOS } from 'various-devices'
-const result = isMacOS()
+import { isWindows } from 'various-devices'
+const result = isWindows()
 
 ```
 
-Used to determine whether it is a MacOS platform and can be used in both browsers and electrons. 
+Used to determine whether it is a window platform and can be used in both browsers and electrons. 
 
 ```ts
-const isMacOS: () => boolean
+const isWindows: () => boolean
 ```
+Get the current desktop device
+
+```js
+import { getDesktop } from 'various-devices'
+const result = getDesktop()
+```
+`getDesktop` return value is one of the following
+
+| value       | introduce    |
+| ----------- | ----------- |
+| macos       | 苹果   |
+| windows     | windows |
+| linux       | Linux   |
 
 
 ## Contributors

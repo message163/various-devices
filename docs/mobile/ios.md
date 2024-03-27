@@ -8,6 +8,13 @@ platform IOS
 
 ### usage
 
+```js
+import { isIOS } from 'various-devices'
+const result = isIOS()
+```
+
+isIOS This API is used to check if the current platform is iOS It return value `boolean`
+
 ```js{6}
 import { getMobileDeviceInfo } from 'various-devices'
 const result = getMobileDeviceInfo()

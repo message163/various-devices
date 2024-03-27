@@ -40,6 +40,15 @@ browser
 </script>
 ```
 
+`getEnv` Return value
+
+| params       | introduce    |
+| ----------- | ----------- |
+| electron    | 桌面程序   |
+| browser     | 浏览器 |
+| node        | node环境   |
+| webworker   | webworker     |
+
 
 ## Contributors
 

@@ -22,6 +22,21 @@ Used to determine whether it is a Linux platform and can be used in both browser
 const isLinux: () => boolean
 ```
 
+Get the current desktop device
+
+```js
+import { getDesktop } from 'various-devices'
+const result = getDesktop()
+```
+`getDesktop` return value is one of the following
+
+| value       | introduce    |
+| ----------- | ----------- |
+| macos       | 苹果   |
+| windows     | windows |
+| linux       | Linux   |
+
+
 
 ## Contributors
 
