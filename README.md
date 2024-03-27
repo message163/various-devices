@@ -31,3 +31,9 @@ Return value
 | webworker   | webworker     |
 
 
+## more
+
+For more APIs, please refer to the 
+
+[documentation](https://message163.github.io/various-devices/temp/guide/)
+ 

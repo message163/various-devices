@@ -1,6 +1,6 @@
 {
   "name": "various-devices",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a cross-platform open source library for obtaining device name and device model.",
   "main": "./dist/various-devices.cjs.js",
   "module": "./dist/various-devices.es.js",

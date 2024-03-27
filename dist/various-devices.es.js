@@ -56,8 +56,8 @@ const u = () => !!(typeof process < "u" && process.versions && process.versions.
     throw new Error("不是浏览器环境 (is not browser environment)");
 }, a = () => {
   if (o() == "browser") {
-    const { platform: e, ua: r } = s();
-    return e && ["Win32", "Win64", "Windows", "WinCE"].indexOf(e) !== -1 ? !0 : /windows|win32/i.test(r);
+    const { platform: e, ua: r } = s(), t = ["Win32", "Win64", "Windows", "WinCE"];
+    return console.log(e), e && t.indexOf(e) !== -1 ? !0 : /windows|win32/i.test(r);
   } else
     throw new Error("不是浏览器环境 (is not browser environment)");
 }, p = () => {
@@ -77,7 +77,7 @@ const u = () => !!(typeof process < "u" && process.versions && process.versions.
 }, E = () => typeof wx < "u" ? "mp-weixin" : typeof my < "u" ? "mp-alipay" : typeof swan < "u" ? "mp-baidu" : typeof Kwai < "u" ? "mp-kuaishou" : typeof qq < "u" ? "mp-qq" : typeof tt < "u" ? "mp-toutiao" : typeof uni < "u" ? uni.platform : "unknown", m = () => /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent), w = () => /Android/i.test(navigator.userAgent), h = () => ({
   width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
   height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
-}), P = () => {
+}), b = () => {
   let n;
   if (m())
     n = "ios";
@@ -96,7 +96,7 @@ export {
   x as getDesktop,
   o as getEnv,
   E as getMiniProgramPlatform,
-  P as getMobileDeviceInfo,
+  b as getMobileDeviceInfo,
   g as getOs,
   y as getPlatformElectron,
   v as getPlatformNode,
