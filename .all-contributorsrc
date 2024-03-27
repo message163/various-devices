@@ -4,9 +4,10 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
-    "docs/node/index.md"
+    "docs/node/index.md",
+    "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 50,
   "commit": true,
   "commitConvention": "none",
   "contributors": [
@@ -19,6 +20,33 @@
         "code",
         "doc",
         "design"
+      ]
+    },
+    {
+      "login": "yanzibiezou",
+      "name": "yanzibiezou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107256547?v=4",
+      "profile": "https://github.com/yanzibiezou",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "core-admin",
+      "name": "徐轲",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77573477?v=4",
+      "profile": "https://github.com/core-admin",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "yinxing233",
+      "name": "yinxing233",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132836709?v=4",
+      "profile": "https://github.com/yinxing233",
+      "contributions": [
+        "code"
       ]
     }
   ],

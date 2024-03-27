@@ -6,7 +6,7 @@ hero:
   text: Get various device information.
   tagline: Built for developers
   image:
-    # src: ./logo.png
+    src: ./logo.png
     alt: Zs
   actions:
     - theme: brand
