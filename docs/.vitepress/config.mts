@@ -54,5 +54,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/message163/various-devices.git' }
     ]
-  }
+  },
+  base: '/various-devices/temp/',
 })
