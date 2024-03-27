@@ -93,6 +93,7 @@ const u = () => !!(typeof process < "u" && process.versions && process.versions.
   };
 };
 export {
+  x as getDesktop,
   o as getEnv,
   E as getMiniProgramPlatform,
   P as getMobileDeviceInfo,
@@ -102,7 +103,6 @@ export {
   h as getScreenSize,
   w as isAndroid,
   d as isBrowser,
-  x as isDesktop,
   u as isElectron,
   m as isIOS,
   p as isLinux,

@@ -48,12 +48,6 @@ export default defineConfig({
         items: [
           { text: 'api', link: '/miniapp/index' },
         ]
-      },
-      {
-        text: 'All',
-        items: [
-          { text: 'api', link: '/all/index' },
-        ]
       }
     ],
 

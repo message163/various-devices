@@ -36,7 +36,7 @@ export const isWindows = () => {
   if (win == 'browser') {
     const { platform, ua } = getBrowserUserAgentAndPlatform();
     const windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'];
-
+    console.log(platform)
     if (platform && windowsPlatforms.indexOf(platform) !== -1) {
       return true;
     }
@@ -73,7 +73,7 @@ export const isLinux = () => {
  * @returns true if the current environment is a desktop false if the current environment is not a desktop
  * @returns 是否是桌面
  */
-export const isDesktop = (): Desktop => {
+export const getDesktop = (): Desktop => {
   if (isMacOS()) {
     return 'macos'
   } else if (isWindows()) {

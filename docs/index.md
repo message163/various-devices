@@ -25,7 +25,7 @@ features:
     details: vue react angular jquey js ts miniprogram nodejs electron 
   - icon: 🛠️
     title: lightweight
-    details: Out-of-the-box support for TypeScript, JSX, CSS and more.
+    details: After construction, the size is only 4kb.
   - icon: ⚡️
     title: compatible
     details: Compatible with all mainstream browsers.
