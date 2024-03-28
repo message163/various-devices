@@ -5,7 +5,7 @@ import { Result } from "../types/common";
  * @returns 检测当前环境是否是iOS
  */
 export const isIOS = () => {
-  return /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent);
+  return /(iPhone|iPad|iPod|iOS|Macintosh)/i.test(navigator.userAgent);
 };
 
 /**
